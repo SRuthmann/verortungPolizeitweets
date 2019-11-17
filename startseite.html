@@ -1,0 +1,78 @@
+<!-- Theme Made By www.w3schools.com -->
+<!--Quelle Template: https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bachelorarbeit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="startseite-css.css">
+  </head>
+
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Container (Header Line Section) -->
+    <nav class="navbar navbar-fixed-top">
+        <p class="navbar logo">Technik <b>Hochschule Mainz</b> University of Applied Sciences</p>
+    </nav>
+
+    <!-- Container (Heading Section) -->
+    <div class="jumbotron text-center">
+      <h1>Räumliche Verortung von textbasierten Social Media Einträgen</h1> 
+      <h2 class="header">Bachelorarbeit von Svenja Ruthmann</h2> 
+    </div>
+
+    <!-- Container (Settings Section) -->
+    <div id="settings" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-6">
+          <h2>Einstellungen zur Auswertung der Tweets</h2><br>
+          <form name="einstellungen" method="get" action="karte.php">
+            <!-- Container (Police Departement Selection) -->
+            <p>Die Tweets der folgenden Polizeibehörde sollen verwendet werden:</p>
+            <input type="radio" name="police" value="PolizeiBB" checked> Polizei Brandenburg<br>
+            <input type="radio" name="police" value="PolizeiBayern"> Polizei Bayern<br>
+            <input type="radio" name="police" value="PP_Rheinpfalz"> Polizei Rheinpfalz<br>
+            <br>
+            <!-- Container (Number of Tweets Selection) -->
+            <p>Die Anzahl an Orten in einem Tweet kann variieren. <br>
+              Aufgrund dessen legen Sie hier die maximale Anzahl an Tweets fest, die für die Analyse berücksichtigt werden:</p>
+            <select name="anzahlTweets">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select><br>
+            <br>
+            <input type="submit" name="abgeschickt" id="abgeschickt" value="Zur Karte" class="btn btn-default btn-lg">
+          </form><br> 
+        </div>
+        <!-- Container (Image of a Map Section) -->
+        <div class="col-sm-4">
+            <img class="image" src="map.png" alt="Karte"></span>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+
+    <!-- Source of Template -->
+    <footer class="container-fluid text-center">
+      <a href="#myPage" title="To Top">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,54 @@
+ /* Theme Made By www.w3schools.com
+   Quelle Template: https://www.w3schools.com/bootstrap/bootstrap_theme_company.asp */
+ 
+ body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  } 
+  .jumbotron {
+    background-color: #8FD24B;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+  }
+  .header {
+    color: #fff;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #7AB93B;
+    z-index: 9999;
+    border: 0;
+    font-size: 16px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar .logo {
+    color: #fff !important; 
+    text-align: center;
+    padding: 15px 0px;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #7AB93B;
+  }
