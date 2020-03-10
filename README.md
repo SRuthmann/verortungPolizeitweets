@@ -3,6 +3,9 @@ Bei dem hier beschriebenen Programm handelt es sich um eine Anwendung, die Tweet
 
 In der folgenden Dokumentation werden zunächst die Programmstruktur und die Ein-bindung externer Dienste, Programme und Bibliotheken erläutert. Anschließend wird die Installation der Anwendung beschrieben. Nach den Erklärungen zum Starten des Pro-gramms werden die Funktionen im Quellcode ausgeführt. 
 
+![alt text](https://github.com/SRuthmann/verortungPolizeitweets/blob/master/Programmablauf.png "Programmablauf")
+
+
 ## Installation
 Da für die Anwendung die Programmiersprache Python verwendet wurde, muss diese auf dem Computer installiert sein. Auf der folgenden Internetseite kann die Version Python 3.7.3 heruntergeladen werden:<br/>
 `https://www.python.org/downloads/`<br/>
